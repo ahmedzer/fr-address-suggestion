@@ -102,3 +102,9 @@ fun UserInfoPageContent(
 // - Debounce input (~300ms) to avoid excessive API calls
 // - ViewModel/state management is handled by the app
 // - Compose UI is stateless and fully customizable
+
+📜 License
+
+MIT License.
+Data used by the library is provided under Open Licence 2.0 by the French government.
+Source: https://api-adresse.data.gouv.fr
