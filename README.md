@@ -27,8 +27,8 @@ dependencyResolutionManagement {
         maven {
             url = uri("https://maven.pkg.github.com/ahmedzer/fr-address-suggestion")
             credentials {
-                username = "YOUR_GITHUB_USERNAME" // optional if public
-                password = System.getenv("GITHUB_TOKEN") // optional if public
+                username = "YOUR_GITHUB_USERNAME"
+                password = System.getenv("GITHUB_TOKEN")
             }
         }
     }
