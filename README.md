@@ -20,10 +20,23 @@ powered by the official French government API.
 ## 📦 Installation & Usage
 
 ```kotlin
+dependencyResolutionManagement {
+    repositories {
+        google()
+        mavenCentral()
+        maven {
+            url = uri("https://maven.pkg.github.com/ahmedzer/fr-address-suggestion")
+            credentials {
+                username = "YOUR_GITHUB_USERNAME" // optional if public
+                password = System.getenv("GITHUB_TOKEN") // optional if public
+            }
+        }
+    }
+}
 // Gradle installation
-// dependencies {
-//     implementation("com.za:address-suggestion:1.0.0")
-// }
+dependencies {
+    implementation("com.za:address-suggestion:1.0.0")
+}
 
 // --- Usage Example ---
 
