@@ -82,7 +82,10 @@ fun AddressDropdownField(
                     focusable = false,
                     dismissOnBackPress = true,
                     dismissOnClickOutside = true
-                )
+                ),
+                onDismissRequest = {
+                    expanded = false
+                }
             ) {
                 Column(
                     modifier = Modifier
